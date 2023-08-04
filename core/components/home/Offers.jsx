@@ -7,7 +7,7 @@ import { offers } from "@/core/utils/items";
 
 const Offers = () => {
   return (
-    <section id="offers" className="relative lg:top-7 md:top-0 sm:top-5">
+    <section id="offers" className="relative top-24">
       <Wrapper>
         <div className='w-full space-y-4 sm:space-y-8 sm:flex-col sm:flex'>
           <div className="w-full px-5 text-2xl font-medium text-center text-gray-900">

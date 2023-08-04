@@ -14,12 +14,12 @@ export const responsive = {
     items: 2
   },
   middle: {
-    breakpoint: { max: 1024, min: 768 },
+    breakpoint: { max: 1024, min: 568 },
     items: 2
   },
   tablet: {
-    breakpoint: { max: 768, min: 464 },
-    items: 2
+    breakpoint: { max: 568, min: 464 },
+    items: 1
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -29,9 +29,9 @@ export const responsive = {
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="w-full h-[30rem] py-4 md:py-0 bg-[#F5F5F5] relative top-20">
+    <section id="testimonials" className="w-full h-[30rem] py-4 md:py-0 bg-[#F5F5F5] relative top-36">
       <Wrapper>
-        <div className="grid grid-cols-1 space-y-6 md:grid-cols-3">
+        <div className="grid grid-cols-1 sm:space-y-6 md:grid-cols-3">
           <div className="flex flex-col items-center justify-center text-2xl text-center lg:text-left lg:px-5 xl:px-0 md:text-3xl">
             <h1>Testimonios de nuestros clientes</h1>
           </div>
@@ -48,7 +48,7 @@ const Testimonials = () => {
               {testimonials.map((testimonial, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center justify-center py-10 mx-5 mb-3 text-white rounded-lg sm:mb-9 bg-primary"
+                  className="flex flex-col items-center justify-center py-10 mx-5 mb-6 text-white rounded-lg sm:mb-9 bg-primary"
                 >
                   <div className="flex flex-col items-center justify-center">
                     <div className='w-24 overflow-hidden border-4 border-white rounded-full'>

@@ -7,7 +7,7 @@ import Wrapper from "../shared/Wrapper";
 
 const OurDesign = () => {
   return (
-    <section id="ourDesign" className="relative overflow-auto md:-top-20 lg:-top-3 2xl:top-10">
+    <section id="ourDesign" className="relative top-12">
       <Wrapper>
         <div className='flex flex-col w-full'>
           <div className="w-full px-5 text-2xl font-medium text-center text-gray-900">

@@ -14,3 +14,6 @@ html, body {
   font-family: 'Poppins', sans-serif;
 }
 
+input {
+  @apply w-full py-3 border pl-3 bg-[#F9F9F9] border-[#BBBBBB] rounded-md  focus:outline-0
+}
