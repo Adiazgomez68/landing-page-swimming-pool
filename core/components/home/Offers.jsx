@@ -33,7 +33,7 @@ const Offers = () => {
               >
                 {offers.map((offer, index) => (
                   <div className="flex flex-col items-center w-full py-5 space-y-1 text-center px-7" key={index}>
-                    <span className="pb-2"> { offer.icon } </span>
+                    <span className="pb-2 text-hoverColorSecondary"> { offer.icon } </span>
                     <h2 className="text-xl text-primary"> {offer.title} </h2>
                     <p className="font-light text-md"> {offer.description} </p>
                   </div>

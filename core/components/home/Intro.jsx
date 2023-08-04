@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../shared/Button";
 import Money from "../shared/icons/Money";
 import Wrapper from "../shared/Wrapper";
@@ -17,13 +18,15 @@ const Intro = () => {
                 Hacemos el diseño a tu gusto y la construimos juntos.
               </p>
             </div>
-            <Button
-              classLink="sm:w-[50%] md:w-[70%] lg:w-[60%] xl:w-[50%]"
-              title={"Cotizar ahora"}
-              className="w-full p-3 px-5 text-xl duration-200 rounded-lg md:px-0 bg-secondary text-primary hover:bg-hoverColorSecondary"
-            >
-              <Money />
-            </Button>
+            <Link href="/#contact" className="flex items-center justify-center w-full md:justify-start">
+              <Button
+                classLink="sm:w-[50%] md:w-[70%] lg:w-[60%] xl:w-[50%]"
+                title={"Cotizar ahora"}
+                className="w-full p-3 px-5 text-xl duration-200 rounded-lg md:px-0 bg-secondary text-primary hover:bg-hoverColorSecondary"
+              >
+                <Money />
+              </Button>
+            </Link>
           </div>
 
           <div className="hidden md:block pl-10 md:py-[4rem] xl:py-[6rem] w-full">

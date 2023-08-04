@@ -5,7 +5,6 @@ const Contact = () => {
   return (
     <section id="contact" className="relative top-48">
       <form
-        onSubmit
         className="flex justify-center w-full px-5 my-8"
       >
         <fieldset className="flex flex-col justify-center w-full max-w-screen-sm space-y-4">
@@ -13,17 +12,20 @@ const Contact = () => {
             <input
               type="text"
               name="name"
+              required
               placeholder="Nombre"
             />
             <input
               type="email"
               name="mail"
+              required
               placeholder="Correo electrónico"
             />
           </div>
           <input
             type="text"
             name="subject"
+            required
             placeholder="Asunto"
           />
           <textarea
