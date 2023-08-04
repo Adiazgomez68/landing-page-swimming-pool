@@ -24,7 +24,7 @@ const OurDesign = () => {
             {pools.map((pool, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center justify-center space-y-3 overflow-hidden "
+                className="flex flex-col items-center justify-center mx-2 space-y-3 overflow-hidden"
               >
                 <div className="flex items-center justify-center w-72 h-72">
                   <img src={pool.item} className="w-[1/2] px-6 sm:px-0" />

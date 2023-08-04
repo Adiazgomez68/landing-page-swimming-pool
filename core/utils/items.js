@@ -44,4 +44,22 @@ export const  offers = [
     title: 'Seguridad',
     description: 'Garantizamos 100% la seguridad de tu piscina.'
   }
-]
+];
+
+export const testimonials = [
+  {
+    avatar: '/images/avatars/ava1.webp',
+    name: 'Fabio Ortega',
+    comment: 'Definitivamente los mejores en diseño y construcción de piscinas. Calidad garantizada y con muy buen acabado.'
+  },
+  {
+    avatar: '/images/avatars/ava2.webp',
+    name: 'Lorena Suárez',
+    comment: 'Me encanta mi nueva piscina, tiene un diseño super espectacular y a todos les ha gustado.'
+  },
+  {
+    avatar: '/images/avatars/ava3.webp',
+    name: 'Juan Esquivel',
+    comment: 'Me di la oportunidad de solicitar una remodelación para mi piscina y no me arrepiento, es la mejor de todas.'
+  },
+];

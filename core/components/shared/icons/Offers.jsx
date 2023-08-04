@@ -12,7 +12,7 @@ export const Design = () => {
     >
 
       <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-      fill="#000000" stroke="none">
+      fill="currentColor" stroke="currentColor">
       <path d="M4050 5098 c-27 -7 -147 -121 -540 -514 l-505 -504 -1167 0 -1167 0
       -3 386 -3 386 -24 19 c-47 38 -191 18 -320 -44 -93 -45 -206 -159 -254 -254
       -72 -146 -68 -30 -65 -1878 l3 -1660 24 -70 c47 -140 160 -272 285 -334 129
@@ -69,7 +69,7 @@ export const Construction = () => {
       Created by potrace 1.16, written by Peter Selinger 2001-2019
       </metadata>
       <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-      fill="#000000" stroke="none">
+      fill="currentColor" stroke="currentColor">
       <path d="M2456 4959 c-236 -27 -529 -135 -738 -271 -102 -67 -284 -212 -292
       -234 -18 -46 -3 -90 36 -110 43 -22 70 -12 152 57 217 184 500 326 744 373
       160 30 155 32 72 -21 -173 -110 -299 -207 -448 -341 -104 -95 -137 -156 -136
@@ -147,7 +147,7 @@ export const Redesign = () => {
       Created by potrace 1.16, written by Peter Selinger 2001-2019
       </metadata>
       <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-      fill="#000000" stroke="none">
+      fill="currentColor" stroke="currentColor">
       <path d="M3111 4624 c-20 -25 -21 -38 -21 -230 l0 -204 -949 0 c-944 0 -948 0
       -975 -21 -35 -27 -36 -86 -3 -117 l24 -22 1229 2 c1155 3 1231 4 1262 21 l32
       18 0 -898 0 -898 -534 -535 -533 -535 -104 -260 c-120 -300 -126 -332 -73
@@ -204,7 +204,7 @@ export const Reparation = () => {
       Created by potrace 1.16, written by Peter Selinger 2001-2019
       </metadata>
       <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-      fill="#000000" stroke="none">
+      fill="currentColor" stroke="currentColor">
       <path d="M3470 5098 c-21 -23 -22 -28 -18 -349 3 -300 5 -329 21 -347 36 -40
       55 -36 349 67 409 143 394 137 408 171 7 16 9 41 6 55 -17 66 -346 285 -580
       385 -108 46 -155 51 -186 18z m258 -232 c119 -63 264 -158 254 -167 -8 -7
@@ -298,7 +298,7 @@ export const Security = () => {
       Created by potrace 1.16, written by Peter Selinger 2001-2019
       </metadata>
       <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-      fill="#000000" stroke="none">
+      fill="currentColor" stroke="currentColor">
       <path d="M1737 4936 c-71 -26 -88 -53 -110 -176 -8 -47 -25 -110 -36 -141 -52
       -137 -176 -272 -321 -349 -91 -48 -124 -85 -136 -149 -10 -49 20 -255 62 -421
       185 -749 614 -1317 1232 -1633 65 -34 123 -57 142 -57 42 0 206 85 350 181
